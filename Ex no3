@@ -1,0 +1,68 @@
+Ex no 3
+1)Studend grade analysis
+
+Program:
+print("Enter Marks Obtained in 5 Subjects: ")
+markOne = int(input())
+markTwo = int(input())
+markThree = int(input())
+markFour = int(input())
+markFive = int(input())
+
+tot = markOne+markTwo+markThree+markFour+markFive
+avg = tot/5
+
+if avg>=90 and avg<=100:
+    print("Your Grade is O")
+elif avg>=80 and avg<90:
+    print("Your Grade is A+")
+elif avg>=70 and avg<80:
+    print("Your Grade is A")
+elif avg>=60 and avg<70:
+    print("Your Grade is B+")
+elif avg>=50 and avg<60:
+    print("Your Grade is B")
+else avg<50:
+    print("Your Grade is U")
+
+Output:
+Enter marks of the first subject: 99
+Enter marks of the second subject: 98
+Enter marks of the third subject: 90
+Enter marks of the fourth subject: 87
+Enter marks of the fifth subject: 88
+Grade: O
+>>>
+
+2)Biggest of three numbers
+
+Program:
+a, b, c = 2, 34, 4
+if a > b and a > c:
+   print("Maximum is {a}")
+elif b > c and b > a:
+   print("Maximum is {b}")
+elif c > a and c > b:
+   print("Maximum is {c}")
+else:
+   print(a)
+
+Output:
+Maximum is (b)
+>>>
+
+3)Odd or even
+
+Program:
+num = int(input("Enter a number: ")) 
+mod = num % 2 
+if mod > 0: 
+  print("This is an odd number. ") 
+else: 
+  print("This is an even number. ")
+
+Output:
+Enter a number:29
+This is an odd number
+>>>
+
