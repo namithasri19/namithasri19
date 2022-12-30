@@ -1,0 +1,58 @@
+1)Eligible for voting
+
+Program:
+age = int(input("Enter the age:"))
+if age>=18:
+   print("Eligible for voting")
+else:
+   print("Not eligible for voting")
+
+Output:
+Enter the age:20
+Eligible for voting
+>>>
+
+2)upper and lower limit:
+
+Program:
+a = str(int("Enter any charecter:"))
+a.lower()
+print(a.lower())
+a.upper()
+print(a.upper())
+
+Output:
+Enter any charecter: namitha
+namitha
+NAMITHA
+>>>
+
+3)Qudratic equation
+
+Program:
+
+import math
+a = int(input("enter a:"))
+b = int(input("enter b:"))
+c = int(input("enter c:"))
+d = (b**2)-(4*a*c)
+sq = math.sqrt(abs(d))
+if a==0:
+    print("Enter the coefficient:")
+elif a>0:
+    print("real and different roots")
+    print((-b+sq)/(2*a))
+    print((-b-sq)/(2*a))
+else:
+    print("complex roots")
+    print((-b+sq)/(2*a))
+    print((-b-sq)/(2*a))
+
+Output:
+enter a:54
+enter b:44
+enter c:55
+real and different roots
+0.5159222860976229
+-1.3307371009124378
+> 
