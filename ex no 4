@@ -1,0 +1,115 @@
+                   FIBONNACCI SERIES
+
+PROGRAM:
+
+first = int(input("enter 1st value:"))
+second = int(input("enter 2nd value:"))
+print(first)
+print(second)
+for x in range (1,12):
+    third = first+second
+    print(third)
+    first,second = second,third
+
+OUTPUT:
+enter 1st value:0
+enter 2nd value:1
+0
+1
+1
+2
+3
+5
+8
+13
+21
+34
+55
+89
+144
+
+            REVERSING THE NUMBERS
+
+PROGRAM:
+
+num=int(input("enter the num:"))
+reversed_num = 0
+
+while num != 0:
+    digit = num % 10
+    reversed_num = reversed_num * 10 + digit
+    num //= 10
+
+print("Reversed Number: " + str(reversed_num))
+
+OUTPUT:
+enter the num:123456789
+Reversed Number: 987654321
+
+
+                NUMBER PYRAMID 
+
+ PROGRAM:
+ 
+n=int(input("enter the number:"))
+for i in range (n):
+    for j in range(n,i,-1):
+        print("5",end="")
+    print()
+
+OUTPUT:
+
+enter the number:5
+55555
+5555
+555
+55
+5
+>>>
+
+             PYRAMID PATTERN
+
+PROGRAM:
+
+rows = int(input("Enter number of rows:"))
+for i in range(rows,0,-1):
+    for j in range(0,rows-i):
+        print(end=" ")
+    for j in range(0,i):
+        print("*",end=" ")
+    print()
+
+OUTPUT:
+
+Enter number of rows:5
+* * * * * 
+ * * * * 
+  * * * 
+   * * 
+    *
+
+           SUM OF SERIES
+
+PROGRAM:
+
+def sumOfSeries(num):
+     
+    
+    res = 0
+    fact = 1
+     
+    for i in range(1, num+1):
+        fact *= i
+        res = res + (i/ fact)
+         
+    return res
+     
+ 
+n = 5
+print("Sum: ", sumOfSeries(n))
+ 
+
+OUTPUT:
+
+Sum:  2.708333333333333
+
