@@ -1,0 +1,116 @@
+EX NO:5               PROGRAMS USING FUNCTIONS
+
+18/01/2023
+
+1)	PRINT THE AREA AND PERIMETER OF SQUARE USING FUNCTION
+
+PROGRAM:
+
+def area():
+     a=int(input("enter a number:"))
+     area=a*a
+     return(area)
+print("area:",area())
+def perimeter():
+     b=int(input("enter b number:"))
+     perimeter=4*b
+     return(perimeter)
+print("perimeter:",perimeter())
+
+OUTPUT:
+
+enter a number:900
+area: 810000
+enter b number:10078
+perimeter: 40312
+>>>
+  2) DEFINE A  FUNCTION TO FIND THE MIN OF TWO NUMBERS 
+
+
+PROGRAM:
+def minimum(a,b):
+              if(a<=b):
+                return a
+              else:
+                return b
+a=int(input("enter the value a:"))
+b=int(input("enter the value b:"))
+print(minimum(a,b))
+
+OUTPUT:
+enter the value a:6785
+enter the value b:457789
+6785
+>>>
+
+
+
+
+
+
+
+3) CHECK  THE RELATIONSHIP BETWEEN TWO NUMBERS
+
+PROGRAM:
+
+def relationship(a,b):
+              if(a>b):
+                  n="greater"
+              elif(a<b):
+                  n="smaller"
+              else:
+                  n="equal"
+              return(n)
+a=int(input("enter the value a:"))
+b=int(input("enter the value b:"))
+print(relationship(a,b))
+
+
+OUTPUT:
+enter the value a:100
+enter the value b:4
+greater
+
+
+
+
+4)first name last name
+
+PROGRAM:
+
+
+def name(a,b):
+              c=a+b
+              return c
+f=str(input("enter first name:"))
+l=str(input("enter last name:"))
+print("full name:",name(f,l))
+
+
+OUTPUT:
+
+enter first name:namitha
+enter last name:sri
+full name: namithasri
+
+
+
+
+
+
+
+
+5) CONVERT HOURS TO MINS
+
+PROGRAM:
+
+def time ():
+              a=int(input("Enter the hour:"))
+              formula=a*60
+              print(a,"hour is converted into",formula,"minutes.")
+              return 
+print(time())
+
+OUTPUT:
+Enter the hour:2
+2 hour is converted into 120 minutes.
