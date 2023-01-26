@@ -1,0 +1,88 @@
+1)write a program that accepts  a string from the user and display the string after replacing the vowel character with @
+
+Program:
+
+def replaceVowelsWithK(test_str, K):
+ 
+    
+    vowels = 'AEIOUaeiou'
+ 
+    
+    for ele in vowels:
+ 
+        
+        test_str = test_str.replace(ele, K)
+ 
+    return test_str
+ 
+ 
+   
+
+input_str = input("Enter the charecter:")
+ 
+
+K = input("Enter the specified charecter:")
+ 
+
+print("The String:", input_str)
+print("The Specified Character:", K)
+ 
+
+print("After replacing vowels with the specified character is:",replaceVowelsWithK(input_str, K))
+
+OUTPUT:
+Enter the charecter:Computer Science
+Enter the specified charecter:@
+The String: Computer Science
+The Specified Character: @
+After replacing vowels with the specified character is: C@mp@t@r Sc@@nc@
+>>>
+
+2)Python Program to check whether the input string is palindrome.
+
+PROGRAM:
+      
+str = (input("Enter any string:"))
+print(str[::-1])
+if(str==str[::-1]):
+    print("Palindrome")
+else:
+    print("Not palindrome")
+    
+OUTPUT:
+Enter any string:malayalam
+malayalam
+Palindrome
+>>>
+
+
+3)find the length of the string
+    
+PROGRAM:    
+count = 0
+for t in "Interview":
+    count+= 1
+print(count)
+
+OUTPUT:
+9
+>>>
+
+4)Reverse the string
+
+PROGRAM:
+def reverse(s):
+    str = " "
+    for i in s:
+        str = i+str
+    return str
+s = "Namitha Sri"
+print("The original string is:",end = " ")
+print(s)
+print("The reversed string is:",end = " ")
+print(reverse(s))
+
+OUTPUT:
+The original string is: Namitha Sri
+The reversed string is: irS ahtimaN
+>>>
