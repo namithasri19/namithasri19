@@ -1,0 +1,171 @@
+EX NO : 7A                            
+                                                List items in Library
+AIM:
+	To create a list of items, present in a library and do all the operations on it.
+ SOURCE CODE:
+
+lib = ["Fiction", "Academics", "Novel", "Science Fiction", "Horror"]
+print("Length of list: ", len(lib))
+lib.append("Fictional Novel")
+print("After append: ", lib)
+lib.insert(0, "Story Books")
+print("After insert: ", lib)
+more_lib = ["Novel", "Science", "Projects"]
+conc= lib + more_lib
+print("List concatenation: ",conc)
+lib.remove("Horror")
+print("After remove: ", lib)
+pop= lib.pop()
+print("Popped value: ", pop)
+print("After pop: ", lib)
+print("Index of Novel: ", lib.index("Novel"))
+print("Count of Novel: ", lib.count("Novel"))
+lib.sort()
+print("After sort: ", lib)
+lib.reverse()
+print("After reverse: ", lib)
+print("Minimum value: ", min(lib))
+print("Maximum value: ", max(lib))
+print("List repetition: ", lib * 3)
+
+OUTPUT:
+list= ['magazine', 'documents', 'Maps', 'Audio book', 'journals']
+
+append list =  ['magazine', 'documents', 'Maps', 'Audio book', 'journals', 'novel']
+
+insert list =  ['magazine', 'documents', 'Maps', 'Audio book', 'database', 'journals', 'novel']
+
+extend list =  ['magazine', 'documents', 'Maps', 'Audio book', 'database', 'journals', 'novel', 'manuscript', 'Newspaper']
+
+concatenation =  ['manuscript', 'Newspaper', 'python', 'micro form', 'Document']
+
+Repetition =  ['magazine', 'documents', 'Maps', 'Audio book', 'database', 'journals', 'novel', 'manuscript', 'Newspaper', 'magazine', 'documents', 'Maps', 'Audio book', 'database', 'journals', 'novel', 'manuscript', 'Newspaper']
+ 
+RESULT:
+          Thus the source code is written for the given problem.
+
+
+
+
+EX NO : 7B         
+                                    Tuple items of car components
+AIM:
+	To create a tuple for components of a car and show all the operations.
+
+SOURCE CODE:
+car_components = ("Hood","Turbo","Doors","Steering","Doors")
+print("Length of tuple: ", len(car_components))
+print("Index of Doors: ", car_components.index("Doors"))
+print("Count of 2: ", car_components.count("Doors"))
+print("Minimum value: ", min(car_components))
+a
+print("Tuple repetition: ", car_components * 3)
+more_car_components = ("Spoilers","Rims","Alloy Wheels")
+print("Tuple concatenation: ", car_components + more_car_compon
+
+OUTPUT:
+Length of tuple:  5
+Index of Doors:  2
+Count of 2:  2
+Minimum value:  Doors
+Maximum value:  Turbo
+Tuple repetition:  ('Hood', 'Turbo', 'Doors', 'Steering', 'Doors', 'Hood', 'Turbo', 'Doors', 'Steering', 
+'Doors', 'Hood', 'Turbo', 'Doors', 'Steering', 'Doors')
+Tuple concatenation:  ('Hood', 'Turbo', 'Doors', 'Steering', 'Doors', 'Spoilers', 'Rims', 'Alloy Wheels')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RESULT:
+          Thus the source code is written for the given problem.
+. 
+
+EX NO : 7C    
+                                         Remove duplicate of a set
+AIM:
+	To Create a set to accept more values and print the elements after removing the duplicate content.
+
+SOURCE CODE:
+list=[]
+for i in range(0,5):
+    list.append(i)
+    list.append(4)
+    list.append(5)
+print("Created list which contains duplicate elements : ",list)
+x=set(list)
+print("After creating set removes duplicate elements : ",x)
+
+OUTPUT:
+Created list which contains duplicate elements :  [0, 4, 5, 1, 4, 5, 2, 4, 5, 3, 4, 5, 4, 4, 5]
+After creating set removes duplicate elements :  {0, 1, 2, 3, 4, 5}
+
+RESULT:
+          Thus the source code is written for the given problem.
+
+
+
+
+EX NO : 7D 
+                               Laptop specification using Dictionary
+AIM:
+	To write a program to print the specification of the laptop using dictionary with its operation.
+
+SOURCE CODE:
+laptop={ "Brand":"Asus",
+    	"Model":"Vivobook 15",
+   	"Processor":"Intel Core i5",
+ 	"RAM":8,
+ 	"Storage":"1TB",
+ 	"Graphics":"NVIDIA GeForce RTX 3080",
+    	"Screen_size":15.6 }
+print("Laptop Specification : ")
+print("Brand : ",laptop["Brand"])
+print("Model : ",laptop["Model"])
+print("Processor : ",laptop["Processor"])
+print("RAM : ",laptop["RAM"])
+print("Storage : ",laptop["Storage"])
+print("Graphics : ",laptop["Graphics"])
+print("Screen Size : ",laptop["Screen_size"])
+
+
+
+OUTPUT:
+Laptop Specification : 
+Brand :  Asus
+Model :  Vivobook 15
+Processor :  Intel Core i5
+RAM :  8
+Storage :  1TB
+Graphics :  NVIDIA GeForce RTX 3080
+Screen Size :  15.6
+
+
+
+
+
+
+
+
+
+
+
+
+RESULT:
+          Thus, the source code is written for the given problem.
+
